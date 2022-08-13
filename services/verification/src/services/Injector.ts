@@ -414,7 +414,7 @@ export class Injector {
         }
 
         for (const address of addresses) {
-            if (address == null) throw err;
+            if (address === null) throw err;
         }
     }
 
